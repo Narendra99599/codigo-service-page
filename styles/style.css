@@ -19,6 +19,7 @@
     padding: 3em 0;
     justify-content: space-between;
     align-items: center;
+    animation: topDown 2s;
 }
 
 .nav-icon{
@@ -322,6 +323,7 @@
     text-align: center;
     font-size: 3rem;
     color:  #d5333e;
+    animation: transitionIn 2s;
 }
 
 .footer-container{
@@ -351,6 +353,7 @@
 
 .footer-description{
     width: 60%;
+    animation: transitionIn 2s;
 }
 
 .footer-header .footer-heading,svg{
@@ -371,6 +374,7 @@
     text-align: center;
     padding: 1em 0 2em 0;
     line-height: 2.2;
+    animation: transitionIn 2s;
 }
 
 .icons-container svg{
@@ -406,5 +410,14 @@
     to{
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+@keyframes topDown {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translate(0);
     }
 }
