@@ -399,6 +399,14 @@
         border: none;
         border-bottom: 1px solid black;
     }
+
+    .introduction {
+        padding: 0;
+    }
+
+    .service-items{
+        margin: 0;
+    }
 }   
 
 
